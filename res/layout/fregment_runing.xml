@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center" android:background="#E9E9E9">
+
+    <com.alireza.amiri.resketi.CustomTextView
+        android:id="@+id/txt_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هیچ نانوایی در حال پخت نیست !!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" android:textColor="#444444"/>
+
+    <ListView
+        android:id="@+id/list_runing"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" android:cacheColorHint="@null"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            
+            android:drawable="@android:color/transparent"
+            android:duplicateParentState="true"
+            android:focusable="false">
+        <!-- Preview: listitem=@layout/item_listview -->eview: listitem=@layout/item_listview >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" android:gravity="bottom">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" android:gravity="top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="vertical" android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dip"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/img_ba"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout7"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:background="#30000000"
+                            android:gravity="bottom"
+                            android:orientation="vertical" >
+
+                            <com.alireza.amiri.resketi.CustomTextView
+                                android:id="@+id/txt_named"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dip"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="8dip"
+                                android:layout_weight="0.5"
+                                android:gravity="bottom|center"
+                                android:text="TextView"
+                                android:textColor="#ffffff"
+                                android:textSize="30dip" android:layout_marginBottom="20dip"/>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dip"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="46dip">
+
+                            <LinearLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.2" android:gravity="right|center">
+
+                                <ImageView
+                                    android:id="@+id/img_call"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="32dip"
+                                    android:src="@drawable/call" />
+
+                                <ImageView
+                                    android:id="@+id/imageView1"
+                                    android:layout_width="2dip"
+                                    android:layout_height="fill_parent"
+                                    android:src="#c4c4c4" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.6" android:gravity="center" android:layout_gravity="center">
+
+                                <com.alireza.amiri.resketi.CustomTextView
+                                    android:id="@+id/txt_f"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.4"
+                                    android:text="CustomTextView" android:gravity="center" android:layout_marginLeft="8dip" android:textColor="#444444"/>
+
+                                <com.alireza.amiri.resketi.CustomTextView
+                                    android:id="@+id/txt_s"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.4"
+                                    android:text="CustomTextView" android:gravity="center" android:layout_marginRight="8dip" android:textColor="#444444"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.2" android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/ImageView01"
+                                    android:layout_width="2dip"
+                                    android:layout_height="match_parent"
+                                    android:src="#c4c4c4" />
+
+                                <ImageView
+                                    android:id="@+id/img_liked"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="32dip"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/ImageView02"
+                            android:layout_width="fill_parent"
+                            android:layout_height="8dip"
+                            android:src="#c4c4c4" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dip"
+                        android:gravity="right" android:layout_marginTop="16dip">
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/txt_address"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="8dip"
+                            android:layout_weight="0.6"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:textColor="#444444"
+                            android:textSize="14dip" />
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/CustomTextView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="آدرس :"
+                            android:textColor="#444444"
+                            android:textSize="15dip" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dip"
+                        android:gravity="right" android:layout_marginTop="16dip">
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/txt_baker"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="8dip"
+                            android:layout_weight="0.6"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:textColor="#444444"
+                            android:textSize="14dip" />
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/CustomTextView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="شاتر :"
+                            android:textColor="#444444"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dip"
+                        android:gravity="right" android:layout_marginTop="16dip">
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/txt_var_cook"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="8dip"
+                            android:layout_weight="0.6"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:textColor="#444444"
+                            android:textSize="14dip" />
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/CustomTextView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="نوع پخت : "
+                            android:textColor="#444444"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dip"
+                        android:gravity="right" android:layout_marginTop="16dip">
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/txt_holiday"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="8dip"
+                            android:layout_weight="0.6"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:textColor="#444444"
+                            android:textSize="14dip" />
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/CustomTextView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="روز های تعطیل :"
+                            android:textColor="#444444"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dip"
+                        android:gravity="right" android:layout_marginTop="16dip">
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/txt_bread"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="8dip"
+                            android:layout_weight="0.6"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:textColor="#444444"
+                            android:textSize="14dip" />
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/CustomTextView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="نوع نان :"
+                            android:textColor="#444444"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dip"
+                        android:gravity="right" android:layout_marginTop="16dip">
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/txt_phone"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="8dip"
+                            android:layout_weight="0.75"
+                            android:gravity="right"
+                            android:text="TextView"
+                            android:textColor="#444444"
+                            android:textSize="14dip" />
+
+                        <com.alireza.amiri.resketi.CustomTextView
+                            android:id="@+id/CustomTextView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="تلفن :"
+                            android:textColor="#444444"
+                            android:textSize="15dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:orientation="vertical" android:layout_marginBottom="8dip">
+
+        <Button
+            android:id="@+id/btn_send_data"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/button_send_sms"
+            android:text="ارسال به دیگران"
+            android:textColor="#ffffff" android:textSize="16dip"/>
+    </LinearLayout>
+
+</LinearLayout>

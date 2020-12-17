@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#E9E9E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dip"
+        android:background="#FB8C00"
+        android:gravity="right" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left|center" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="right|center" >
+
+            <com.alireza.amiri.resketi.CustomTextView
+                android:id="@+id/customTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="پیام ها"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/men_message"
+                android:layout_width="48dip"
+                android:layout_height="20dip"
+                android:src="@drawable/menuu" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_message"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" android:cacheColorHint="@null"
+            android:clickable="false"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            
+            android:drawable="@android:color/transparent"
+            android:duplicateParentState="true"
+            android:focusable="false">
+        <!-- Preview: listitem=@layout/item_message -->eview: listitem=@layout/item_listview >
+    </ListView>
+
+</LinearLayout>

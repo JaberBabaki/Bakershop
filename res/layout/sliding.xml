@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" android:layout_gravity="right" android:gravity="right">
+
+    <LinearLayout
+        android:id="@+id/lay_all_sliding"
+        android:layout_width="220dip"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:orientation="vertical" android:background="#fafafa">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="#ef6c00"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="58dip"
+                    android:layout_height="58dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginRight="23dp"
+                    android:src="@drawable/icnw" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="#FAFAFA"
+            android:orientation="vertical" android:layout_marginRight="8dip" android:layout_marginTop="8dip">
+
+            <LinearLayout
+                android:id="@+id/lay_search"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginRight="4dip" >
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/txt_search_slide"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="2dip"
+                    android:gravity="right|center"
+                    android:text="جستجو"
+                    android:textColor="#727272" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_main"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginRight="4dip" android:visibility="gone">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_message"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginRight="4dip" >
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/txt_message_slide"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="2dip"
+                    android:gravity="right|center"
+                    android:text="پیام ها"
+                    android:textColor="#727272" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_program"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginRight="4dip" >
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/CustomTextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center"
+                    android:text="برنامه های من"
+                    android:textColor="#727272" android:layout_marginRight="2dip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_idea"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginRight="4dip" >
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/CustomTextView03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center"
+                    android:text="بازخورد"
+                    android:textColor="#727272" android:layout_marginRight="2dip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_about"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginRight="4dip" >
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/txt_about"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="2dip"
+                    android:gravity="right|center"
+                    android:text="درباره ما"
+                    android:textColor="#727272" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

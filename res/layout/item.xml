@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/lin_all"
+        android:layout_width="0dip"
+        android:layout_height="170dip"
+        android:orientation="vertical" android:layout_weight="0.5" android:layout_margin="4dip">
+
+        <ImageView
+            android:id="@+id/img_baker"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip" android:layout_weight="0.75"/>
+
+        <LinearLayout
+            android:id="@+id/lin_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.35"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical" android:layout_marginTop="4dip" android:layout_marginBottom="4dip">
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/txt_first_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="0.5"
+                    android:gravity="left|center"
+                    android:text="05-10"
+                    android:textColor="#00c853"
+                    android:textSize="14dip" />
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/txt_second_time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="0.5"
+                    android:gravity="left|center"
+                    android:text="14-19"
+                    android:textColor="#00c853"
+                    android:textSize="14dip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:gravity="right|center" android:layout_marginRight="8dip">
+
+                <com.alireza.amiri.resketi.CustomTextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="نانوایی عباس"
+                    android:textColor="#727272"
+                    android:textSize="16dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay_all_message"
+        android:layout_width="match_parent"
+        android:layout_height="78dip"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="4dip" >
+
+        <LinearLayout
+            android:id="@+id/lay_read"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:background="#d84315" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent" android:layout_weight="0.95" android:gravity="right|center" android:background="#FFFFFF">
+
+            <com.alireza.amiri.resketi.CustomTextView
+                android:id="@+id/txt_Title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#808080" android:textSize="16dip" android:gravity="right" android:layout_marginRight="8dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
